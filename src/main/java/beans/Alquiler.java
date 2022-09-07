@@ -4,12 +4,12 @@ import java.util.Date;
 
 public class Alquiler {
     private int id;
-    private int username;
+    private String username;
     private Date fechaAlquiler;
     private boolean novedad;
     private String genero;
 
-    public Alquiler(int id, int username, Date fechaAlquiler, boolean novedad, String genero) {
+    public Alquiler(int id, String username, Date fechaAlquiler, boolean novedad, String genero) {
         this.id = id;
         this.username = username;
         this.fechaAlquiler = fechaAlquiler;
@@ -25,11 +25,11 @@ public class Alquiler {
         this.id = id;
     }
 
-    public int getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsername(int username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 

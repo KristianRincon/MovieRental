@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cts</groupId>
-    <artifactId>MovieRental</artifactId>
+    <artifactId>MovieRental1</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>MovieRental</name>
+    <name>MovieRental1</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -26,6 +26,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.46</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -79,3 +86,4 @@
     </build>
 
 </project>
+
